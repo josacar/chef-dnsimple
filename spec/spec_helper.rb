@@ -3,6 +3,8 @@ require 'chefspec'
 
 # Uncomment to use ChefSpec's Berkshelf extension
 require 'chefspec/berkshelf'
+require 'chefspec/cacher'
+
 require_relative 'support/shared_context'
 
 RSpec.configure do |config|
